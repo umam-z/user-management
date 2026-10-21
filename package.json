@@ -1,0 +1,30 @@
+{
+  "name": "user-management",
+  "version": "1.0.0",
+  "description": "User Management Using Node",
+  "license": "ISC",
+  "author": "Moh. Sirajul Umam",
+  "type": "module",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "jest -i"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.3.0",
+    "joi": "^18.3.0",
+    "uuid": "^14.0.3"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.29.7",
+    "babel-jest": "^30.5.2",
+    "jest": "^30.5.2",
+    "prisma": "^8.0.0-rc.24",
+    "supertest": "^7.3.1"
+  }
+}
