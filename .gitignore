@@ -38,3 +38,11 @@ Thumbs.db
 .vscode/
 .idea/
 
+
+/generated/prisma
+
+#AI & Editor config
+.agents/
+.claude/
+.windsurf/
+
